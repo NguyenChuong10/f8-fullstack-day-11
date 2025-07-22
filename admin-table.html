@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/admin-table.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="contain-wrapper">
+        <div class="search">
+            <div class="button-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" id="search" name="search" placeholder="Search by name or ID">
+            </div>
+            <div class="menu">
+                <i class="fas fa-columns"></i>
+            </div>
+            <div class="filter">
+                <i class="fa-solid fa-filter"></i>
+            </div>
+            <div class="active">
+                <span>
+                    <i class="fa-solid fa-check"></i>
+                    active
+                </span>
+            </div>
+            <div class="notfound">
+                <span>
+                    <i class="fa-solid fa-check"></i>
+                    Not found
+                </span>
+            </div>
+        </div>
+        <div class="admintable">
+            <table>
+                <thead>
+                    <th>Business Listing</th>
+                    <th>Start Date</th>
+                    <th>Vendor ID</th>
+                    <th>Status</th>
+                    <th>Region</th>
+                    <th>Posts</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Krusty Krab Ltd.</td>
+                        <td>8/21/15</td>
+                        <td>765594</td>
+                        <td>Active</td>
+                        <td>Canada (Central)</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <td>NetRangler Inc.</td>
+                        <td>5/7/16</td>
+                        <td>558612</td>
+                        <td>Active</td>
+                        <td>US East (Ohio)</td>
+                        <td>41</td>
+                    </tr>
+                    <tr>
+                        <td>ChumHum Ltd.</td>
+                        <td>5/19/12</td>
+                        <td>665137</td>
+                        <td>Not Found</td>
+                        <td>EU (Ireland)</td>
+                        <td>46</td>
+                    </tr>
+                    <tr>
+                        <td>Rich Industries Co.</td>
+                        <td>9/4/12</td>
+                        <td>520015</td>
+                        <td>Active</td>
+                        <td>EU (London)</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Wayne Industries Co.</td>
+                        <td>6/19/14</td>
+                        <td>204349</td>
+                        <td>Not Found</td>
+                        <td>EU (Stockholm)</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <td>Bubba Gump Co.</td>
+                        <td>11/7/16</td>
+                        <td>487441</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Singapore)</td>
+                        <td>79</td>
+                    </tr>
+                    <tr>
+                        <td>Monsters Inc.</td>
+                        <td>3/4/16</td>
+                        <td>788187</td>
+                        <td>Active</td>
+                        <td>EU (London)</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>InGen Ltd.</td>
+                        <td>8/2/19</td>
+                        <td>809905</td>
+                        <td>Active</td>
+                        <td>US West (N. California)</td>
+                        <td>39</td>
+                    </tr>
+                    <tr>
+                        <td>Kwik-E-Mart Ltd.</td>
+                        <td>8/15/17</td>
+                        <td>172922</td>
+                        <td>Active</td>
+                        <td>EU (Paris)</td>
+                        <td>74</td>
+                    </tr>
+                    <tr>
+                        <td>U.S. Robotics Inc.</td>
+                        <td>6/21/19</td>
+                        <td>295340</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Tokyo)</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Gryzzl Co.</td>
+                        <td>9/23/16</td>
+                        <td>036023</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Singapore)</td>
+                        <td>53</td>
+                    </tr>
+                    <tr>
+                        <td>Wonka Industries GmbH</td>
+                        <td>5/30/14</td>
+                        <td>448432</td>
+                        <td>Active</td>
+                        <td>South America</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Buy’N’Large Ltd.</td>
+                        <td>1/31/14</td>
+                        <td>935910</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Mumbai)</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>Capsule Inc.</td>
+                        <td>2/11/12</td>
+                        <td>125629</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Singapore)</td>
+                        <td>43</td>
+                    </tr>
+                    <tr>
+                        <td>Soylent Co.</td>
+                        <td>10/28/12</td>
+                        <td>785681</td>
+                        <td>Active</td>
+                        <td>EU (Frankfurt)</td>
+                        <td>51</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Planet Inc.</td>
+                        <td>7/27/13</td>
+                        <td>550819</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Seoul)</td>
+                        <td>72</td>
+                    </tr>
+                    <tr>
+                        <td>Umbrella Corp.</td>
+                        <td>8/16/13</td>
+                        <td>482650</td>
+                        <td>Active</td>
+                        <td>Asia Pacific (Sydney)</td>
+                        <td>56</td>
+                    </tr>
+                    <tr>
+                        <td>Sirius Cybernetics Co.</td>
+                        <td>12/10/13</td>
+                        <td>449003</td>
+                        <td>Active</td>
+                        <td>US East (N. Virginia)</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Madrigal Electromotive</td>
+                        <td>9/18/16</td>
+                        <td>247562</td>
+                        <td>Active</td>
+                        <td>EU (Paris)</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>Bluth Company Inc.</td>
+                        <td>1/15/12</td>
+                        <td>977094</td>
+                        <td>Active</td>
+                        <td>US West (Oregon)</td>
+                        <td>52</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </div>
+        <div class="pagination-container">
+                        <span>Rows per page</span>
+                        <select class="rows-select">
+                            <option>10</option>
+                            <option selected>20 <i class="fa-solid fa-caret-down"></i> </option>
+                            <option>50</option>
+                            <option>100</option>
+                        </select>
+                        <span>1 - 20 of 406</span>
+                        <div class="arrows">
+                            <button class="arrow-btn">|<</button>
+                            <button class="arrow-btn"><</button>
+                            <button class="arrow-btn">></button>
+                            <button class="arrow-btn">>|</button>
+                        </div>
+                    </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
